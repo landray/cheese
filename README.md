@@ -18,6 +18,6 @@
 
 
 ## 知识库列表
-* [垂直居中和vw](./notes/wyg/12月16日-垂直居中和vw/12-16.md)
-* [hashchange事件](./notes/wyg/12月23日-hashchange事件/12-23.md)
+* [垂直居中实现方式总结和css3单位vw-vh的简单应用](./notes/wyg/垂直居中实现方式总结和css3单位vw-vh的简单应用/)
+* [hashchange事件以及它的事件对象](./notes/wyg/hashchange事件以及它的事件对象/)
 
