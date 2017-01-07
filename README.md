@@ -20,4 +20,5 @@
 ## 知识库列表
 * [垂直居中实现方式总结和css3单位vw-vh的简单应用](./notes/wyg/垂直居中实现方式总结和css3单位vw-vh的简单应用/)
 * [hashchange事件以及它的事件对象](./notes/wyg/hashchange事件以及它的事件对象/)
+* [call、apply、bind用法及对比](https://github.com/hzfhhh/frontend-kb/blob/patch-4/notes/huangzifneg/bind-call-apply/readme.md)
 
