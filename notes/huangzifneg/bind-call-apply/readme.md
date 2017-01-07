@@ -72,3 +72,4 @@ bind()与call()、apply()用法相似，也可以改变函数体内的this指向
 原因在于bind()的实现相当于在函数内部包了一个call()/apply()，第二次bind()相当于再包住第一次的bind()，所以第二次以后的bind()是无法生效的。
 
 附上bind()对浏览器支持情况：
+![image](./bind-support.png)
