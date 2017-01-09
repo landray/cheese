@@ -10,19 +10,19 @@
 
    具体： `userCapture` 表示事件是否向上冒泡，点击 `remove` 能移除当前DOM元素绑定的该事件
 
-   ![EventListenr](.\assets\eventlistenr.jpg)
+   ![EventListenr](./assets/eventlistenr.jpg)
 
 2. `ctrl + f` 快速查找定位DOM元素
 
    作用：在DOM中快速查找，当前匹配的地方高亮显示，搜索框显示检索到的总数量和当前高亮在总数量中所处的位置
 
-   ![ctrl](.\assets\ctrl.jpg)
+   ![ctrl](./assets/ctrl.jpg)
 
 3. 选择当前DOM元素，然后按下h，隐藏当前DOM元素
 
    作用：为当前DOM元素设置css样式：`visability: hidden !important;` ，从而隐藏元素。再次按下 `h` 移除该css样式
 
-   ![h](.\assets\h.jpg)
+   ![h](./assets/h.jpg)
 
 4. Break on 用于监听DOM节点的变化
 
@@ -32,9 +32,9 @@
 
    ​
 
-   ![break](.\assets\break.jpg)
+   ![break](./assets/break.jpg)
 
-   ![b](.\assets\b.jpg)
+   ![b](./assets/b.jpg)
 
    ​
 
@@ -60,15 +60,15 @@
 
    before: 使用`console.log()`
 
-   ![log](.\assets\log.jpg)
+   ![log](./assets/log.jpg)
 
    now: 使用`console.table()`,数组对象信息相比使用`console.log()`更加清晰明了
 
-   ![table](.\assets\table.jpg)
+   ![table](./assets/table.jpg)
 
 3. `$_ ` 打印返回最后执行命令的结果
 
-   ![_](.\assets\_.jpg)
+   ![_](./assets/_.jpg)
 
 4. `keys()` 打印对象的key，`values()` 打印对象的values
 
@@ -79,4 +79,4 @@
 var obj = {a:'123',b:'456',c:'789',d: function(){console.log(1)}};
 ```
 
-![obj](.\assets\obj.jpg)
+![obj](./assets/obj.jpg)
