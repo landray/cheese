@@ -23,4 +23,5 @@
 * [apply()、call()、bind()用法及区别](https://github.com/landray/frontend-kb/tree/master/notes/huangzifeng/apply-call-bind)
 * [使用grunt-prompt添加交互式命令行](https://github.com/landray/frontend-kb/tree/master/notes/zengxc/使用grunt-prompt添加交互式命令行)
 * [浏览器渲染模式之一BFC](./notes/linl/BFC/readme.md)
+* [原生JS获取元素样式](./notes/leezng/原生JS获取元素样式)
 
