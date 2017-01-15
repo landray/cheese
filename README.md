@@ -21,4 +21,8 @@
 * [垂直居中实现方式总结和css3单位vw-vh的简单应用](./notes/wyg/垂直居中实现方式总结和css3单位vw-vh的简单应用/)
 * [hashchange事件以及它的事件对象](./notes/wyg/hashchange事件以及它的事件对象/)
 * [apply()、call()、bind()用法及区别](https://github.com/landray/frontend-kb/tree/master/notes/huangzifeng/apply-call-bind)
+* [使用grunt-prompt添加交互式命令行](https://github.com/landray/frontend-kb/tree/master/notes/zengxc/使用grunt-prompt添加交互式命令行)
+* [浏览器渲染模式之一BFC](./notes/linl/BFC/readme.md)
+* [原生JS获取元素样式](./notes/leezng/原生JS获取元素样式)
+* [jQuery-queue队列](./notes/zhangmz/jQuery-queue队列)
 
