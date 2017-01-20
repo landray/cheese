@@ -41,7 +41,7 @@
 <div id="content1">列表1内容:123456</div>
 <div id="content2">列表2内容:abcdefgkijkl</div>
 ```
-上面 <a href="#content1"> 中的锚点 #content1 就对应了列表1 <div id="content1"> 。锚点2与之相同对应列表2。
+上面 `<a href="#content1">` 中的锚点 #content1 就对应了列表1 `<div id="content1">` 。锚点2与之相同对应列表2。
 我们就可以使用 :target 接受到点击事件，并操作对应的 DOM 了：
 ```css
 #content1,
