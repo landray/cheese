@@ -26,4 +26,8 @@
 * [原生JS获取元素样式](./notes/leezng/原生JS获取元素样式)
 * [jQuery-queue队列](./notes/zhangmz/jQuery-queue队列)
 * [浮点数运算精度](./notes/zhangmz/浮点数运算精度)
+* [Javascript数组去重](./notes/yangjiapei/Javascript数组去重)
+* [伪元素的妙用](./notes/yangjiapei/伪元素的妙用)
+* [去除inline-block元素出现空白间隙](./notes/yangjiapei/去除inline-block元素出现空白间隙)
+* [在限宽的容器中实现全屏效果](./notes/yangjiapei/在限宽的容器中实现全屏效果)
 
