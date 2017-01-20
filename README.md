@@ -25,4 +25,5 @@
 * [浏览器渲染模式之一BFC](./notes/linl/BFC/readme.md)
 * [原生JS获取元素样式](./notes/leezng/原生JS获取元素样式)
 * [jQuery-queue队列](./notes/zhangmz/jQuery-queue队列)
+* [浮点数运算精度](./notes/zhangmz/浮点数运算精度)
 
