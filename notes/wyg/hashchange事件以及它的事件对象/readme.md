@@ -6,16 +6,19 @@
 
 ##### 语法：
 
-​	window.onhashchange = func    ;            func 为函数引用
+```javascript
+window.onhashchange = func    ;           // func 为函数引用
+```
 
 ##### 例子：
 
-​	window.onhashchange = function(e){
+```javascript
+window.onhashchange = function(e){
+  console.log(e);
+  alert('我被触发了');
+}
 
-​		console.log(e);
-
-  	 	alert('我被触发了');
-​	 }
+```
 
 你可以通过设置[Location 对象](http://www.runoob.com/jsref/obj-location.html) 的 [location.hash](http://www.runoob.com/jsref/prop-loc-hash.html) 或 [location.href](http://www.runoob.com/jsref/prop-loc-href.html) 属性修改锚部分
 

@@ -30,4 +30,7 @@
 * [伪元素的妙用](./notes/yangjiapei/伪元素的妙用)
 * [去除inline-block元素出现空白间隙](./notes/yangjiapei/去除inline-block元素出现空白间隙)
 * [在限宽的容器中实现全屏效果](./notes/yangjiapei/在限宽的容器中实现全屏效果)
+* [css选择器的部分区别以及bind(this)的简单应用](./notes/wyg/css选择器的部分区别以及bind(this)的简单应用/)
+* [JavaScript中constructor属性详解](./notes/wyg/JavaScript中constructor属性详解/)
+
 
