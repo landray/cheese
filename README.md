@@ -33,4 +33,8 @@
 * [css选择器的部分区别以及bind(this)的简单应用](./notes/wyg/css选择器的部分区别以及bind(this)的简单应用/)
 * [JavaScript中constructor属性详解](./notes/wyg/JavaScript中constructor属性详解/)
 * [ES6特性  class、static、super、extends](https://github.com/landray/frontend-kb/blob/master/notes/huangzifeng/ES6-class-static-super-extends/readme.md)
+* [jQuery事件的命名空间](./notes/cails/jQuery事件的命名空间/)
+* [text-overflow与contenteditable的冲突](./notes/cails/text-overflow与contenteditable的冲突/)
+* [使用正则解析url查询串](./notes/cails/使用正则解析url查询串/)
+* [数组的原型方法(ES5)](./notes/cails/数组的原型方法(ES5)/)
 
