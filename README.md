@@ -37,4 +37,4 @@
 * [text-overflow与contenteditable的冲突](./notes/cails/text-overflow与contenteditable的冲突/)
 * [使用正则解析url查询串](./notes/cails/使用正则解析url查询串/)
 * [数组的原型方法(ES5)](./notes/cails/数组的原型方法(ES5)/)
-
+* [Promise对象(ES6)](./notes/cails/Promise对象(ES6)/)
