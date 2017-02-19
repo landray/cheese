@@ -40,3 +40,4 @@
 * [Promise对象(ES6)](./notes/cails/Promise对象(ES6)/)
 * [CSS变量(CSS4)](./notes/leezng/CSS变量/)
 * [坐标系计算](./notes/leezng/坐标系/)
+* [absolute详解](./notes/huangzifeng/absolute/)
