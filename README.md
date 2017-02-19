@@ -41,3 +41,5 @@
 * [CSS变量(CSS4)](./notes/leezng/CSS变量/)
 * [坐标系计算](./notes/leezng/坐标系/)
 * [absolute详解](./notes/huangzifeng/absolute/)
+* [图片懒加载](./notes/linl/图片懒加载/readme.md)
+
