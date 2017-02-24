@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>css</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style type="text/css">
+  .container-1 {
+    width: 10%;
+    padding-bottom: 10%;
+    border: 1px solid red;
+  }
+  .container-2 {
+    width: 10%;
+    border: 1px solid yellow;
+  }
+  .container-2:after {
+    content: "";
+    display: block;
+    margin-top: 100%;
+  }
+  .container-3 {
+    border: 1px solid blue; 
+    overflow: hidden;
+  }
+  .left,
+  .main,
+  .right {
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+  }
+  .left {
+    float: left;
+    background: #2cc;
+    width: 300px;
+  }
+  .main {
+    background: #900;
+    width: 300px;
+    margin-left: 300px;
+  }
+  .right {
+    margin-left: 600px;
+    background: #ccc;
+  }
+  </style>
+</head>
+<body>
+  <div class="container-1">
+    <div></div>
+  </div>
+  <hr>
+  <div class="container-2">
+  </div>
+  <hr>
+  <div class="container-3">
+    <div class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur obcaecati a numquam, autem laudantium, illum ut provident asperiores harum tempore.</div>
+    <div class="main"></div>
+    <div class="right"></div>
+  </div>
+  <hr>
+</body>
+</html>
