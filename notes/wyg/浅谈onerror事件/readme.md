@@ -14,7 +14,7 @@ onerror 事件会在文档或图像加载过程中发生错误时被触发。
 
 **支持该事件的 HTML 标签：**
 
-```html
+```
 <img>, <object>, <style>...
 ```
 
@@ -25,8 +25,6 @@ window, image...
 ```
 
 #### **例子：**
-
-window: 
 
 - 当**JavaScript运行时错误**（包括语法错误）发生时，**window**会触发一个error事件，并执行**window.onerror**事件。
 - 当一项资源（如**<`img`>**或**`<script>`**）加载失败，加载资源的元素会触发一个error事件，并执行该元素上的onerror()处理函数。这些error事件不会向上冒泡到window.
@@ -57,11 +55,9 @@ window.onerror = function(message, source, lineno, colno, error) { ... }
 
 element.onerror  语法
 
-- ```javascript
-  element.onerror = function(event) { ... }
-  ```
-
-
+```javascript
+element.onerror = function(event) { ... }
+```
 
 当加载自[不同域](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)的脚本中发生语法**(?)**错误时，为避免信息泄露），语法错误的细节将不会报告，而代之简单的**"Script error."**。
 
