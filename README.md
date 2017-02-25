@@ -43,3 +43,8 @@
 * [absolute详解](./notes/huangzifeng/absolute/)
 * [图片懒加载](./notes/linl/图片懒加载/readme.md)
 * [css正方形和多列等高](./notes/zhangmz/css正方形和多列等高)
+* [浅谈onerror事件](./notes/wyg/浅谈onerror事件)
+* [CSS3之pointer-events属性](./notes/wyg/CSS3之pointer-events属性)
+
+
+

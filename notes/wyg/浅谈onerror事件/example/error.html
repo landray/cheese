@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  
+  <img src="">
+  
+  <script>
+    
+    var img = document.getElementsByTagName('img')[0];
+
+    // img.onload = function () {
+    //   alert('加载完成');
+    // }
+    img.onerror = function (e) {
+      console.log(e);
+      img.onerror = null; //很重要，否则进入死循环
+      img.setAttribute('src','images/641.jpg');
+    }
+
+    // img-onerror错误不会冒泡到window上面
+    window.onerror =function (msg, src, lineNum, colNum, err){
+      alert('[ERROR in line ' + lineNum + ', col ' + colNum + '][' + msg + '](' + src + ') ' + err);
+    };
+
+    //设置src
+    img.setAttribute('src','images/641.jpga');
+    
+    err();
+  </script>
+  
+  <!-- <script src="err.js"></script> -->
+  <script src="https://www.baidu.com/image/err.js"></script>
+</body>
+</html>

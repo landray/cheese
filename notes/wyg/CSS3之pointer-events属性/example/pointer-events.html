@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    div.pointer {
+      margin-top: 20px;
+    }
+    div.pointer a{
+      pointer-events: none;
+    }
+    div.img {
+      margin-top: 20px;
+      pointer-events: none; 
+
+    }
+  </style>
+</head>
+<body>
+  <div class="none-pointer">
+    <a href="https://www.baidu.com" target="_blank">测试(我是没有pointer-events属性的)</a>
+  </div>
+  <div class="pointer">
+    <a href="https://www.baidu.com" target="_blank">测试(我是有pointer-events属性的)</a>
+  </div>
+  <div class="img">    
+    <img src="images/641.jpg" title="img">
+  </div>
+  
+  <script type="text/javascript">
+    // 正常的阻止链接的点击
+    // var NonePointerCss = document.getElementsByClassName('none-pointer')[0].children[0]; 
+    
+    // NonePointerCss.onclick= function(e) {
+    //   return false;
+    // };
+
+
+    // var pointerCss = document.getElementsByClassName('pointer')[0];
+    // pointerCss.onclick = function () {
+    //   alert('我是有pointer的');
+    // };  //通过它可以验证它不能阻止冒泡；
+
+  </script>
+</body>
+</html>
