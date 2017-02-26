@@ -10,9 +10,11 @@
 
 实例代码：
 
+```html
     <span style="position: absolute;border: 1px solid blue;width: 200px;height: 200px;text-align:center">test1</span>
     <span style="float: left;border: 1px solid yellow;width: 200px;height: 200px;text-align:center">test2</span>
     <span style="border: 1px solid red;width: 200px;height: 200px;text-align:center">test3</span>
+```
 
 ###高度欺骗性
 
@@ -20,6 +22,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
 
 实例代码：
 
+```html
     <div style="border:4px solid blue;">
       <img src="http://img.zcool.cn/community/01580956a389086ac7256cb0f3ebe5.gif" />
     </div>
@@ -31,6 +34,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
       <img style="float: left;" src="http://img.zcool.cn/community/01580956a389086ac7256cb0f3ebe5.gif" />
       我是float: left元素
     </div>
+```
 
 ###如何确定定位点
 
@@ -38,6 +42,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
 
 实例代码：
 
+```html
     <div style="border:4px solid red;margin-bottom: 200px">
       没有指定left/right/top/bottom
       <img style="position: absolute" src="http://img.zcool.cn/community/01580956a389086ac7256cb0f3ebe5.gif" />
@@ -46,6 +51,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
       我是一个绝对定位的absolute元素
       <img style="position: absolute;left: 20px" src="http://img.zcool.cn/community/01580956a389086ac7256cb0f3ebe5.gif" />
     </div>
+```
 
 ###父relative + 子absolute来实现定位
 
@@ -53,6 +59,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
 
 实例代码：
 
+```html
     <div style="display: inline-block;position:relative;">
       <img style="width: 100px" src="http://img.zcool.cn/community/01580956a389086ac7256cb0f3ebe5.gif" />
       <span class="icon">6</span>
@@ -68,11 +75,13 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
       right:-10px;
       top:0;
     }
+```
 
 上面的实现方式是存在缺陷的，由于absolute和relative耦合在了一起了，如果父元素做任意改变（比如重新设置width值），那么absolute子元素就要重新寻找定位。改善方式是不指定absolute元素的left/right/top/bottom，让其定位点处于正常文档流中的定位点，通过设置margin:top/right/bottom/left来定位。
 
 实例代码：
 
+```html
     <div style="display: inline-block;position:relative;">
       <span class="tipIcon">6</span>
       <img src="http://img.zcool.cn/community/01580956a389086ac7256cb0f3ebe5.gif" />
@@ -87,6 +96,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
       height: 20px;
       margin:0 0 0 90px;
     }
+```
 
 ###通过设置absolute实现全屏拉伸
 
@@ -94,7 +104,9 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
 
 实例代码：
 
+```html
     <span style="position: absolute; left: 0;right: 0; top: 0;bottom: 0;background-color: #665b5b;opacity: .5;filter: alpha(opacity=50);">全屏滤镜</span>
+```
 
 ###配合z-index使用
 
@@ -102,5 +114,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
 
 实例代码：
 
+```html
     <div style="position:absolute;width:20px;height:20px;background-color: blue;z-index: 1"></div>
     <div style="position:absolute;width:100px;height:100px;background-color: red"></div>
+```
