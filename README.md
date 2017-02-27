@@ -45,6 +45,7 @@
 * [css正方形和多列等高](./notes/zhangmz/css正方形和多列等高)
 * [浅谈onerror事件](./notes/wyg/浅谈onerror事件)
 * [CSS3之pointer-events属性](./notes/wyg/CSS3之pointer-events属性)
+* [image-set方法和img标签属性srcset,sizes](./notes/linl/image-set方法和img标签属性srcset,sizes/readme.md)
 
 
 
