@@ -22,7 +22,7 @@
 * [hashchange事件以及它的事件对象](./notes/wyg/hashchange事件以及它的事件对象/)
 * [apply()、call()、bind()用法及区别](https://github.com/landray/frontend-kb/tree/master/notes/huangzifeng/apply-call-bind)
 * [使用grunt-prompt添加交互式命令行](https://github.com/landray/frontend-kb/tree/master/notes/zengxc/使用grunt-prompt添加交互式命令行)
-* [浏览器渲染模式之一BFC](./notes/linl/BFC/readme.md)
+* [浏览器渲染模式之一BFC](./notes/linl/BFC)
 * [原生JS获取元素样式](./notes/leezng/原生JS获取元素样式)
 * [jQuery-queue队列](./notes/zhangmz/jQuery-queue队列)
 * [浮点数运算精度](./notes/zhangmz/浮点数运算精度)
@@ -41,11 +41,11 @@
 * [CSS变量(CSS4)](./notes/leezng/CSS变量/)
 * [坐标系计算](./notes/leezng/坐标系/)
 * [absolute详解](./notes/huangzifeng/absolute/)
-* [图片懒加载](./notes/linl/图片懒加载/readme.md)
+* [图片懒加载](./notes/linl/图片懒加载)
 * [css正方形和多列等高](./notes/zhangmz/css正方形和多列等高)
 * [浅谈onerror事件](./notes/wyg/浅谈onerror事件)
 * [CSS3之pointer-events属性](./notes/wyg/CSS3之pointer-events属性)
-* [image-set方法和img标签属性srcset,sizes](./notes/linl/image-set方法和img标签属性srcset,sizes/readme.md)
+* [image-set方法和img标签属性srcset,sizes](./notes/linl/image-set方法和img标签属性srcset,sizes)
 
 
 
