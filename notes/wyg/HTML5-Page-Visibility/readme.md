@@ -25,7 +25,8 @@
 
 #### 兼容情况：
 
-**IE10+, IOS 6+ , Android4.4+** 兼容良好（ps: ~~Android 4.4和4.4.4要加私有前缀~~, 我用我手机(android 4.4.4)测貌似也不用前缀也可以）![PageVisibility](./example/PageVisibility.png)
+**IE10+, IOS 6+ , Android4.4+** 兼容良好（ps: ~~Android 4.4和4.4.4要加私有前缀~~, 我用我手机(android 4.4.4)测貌似也不用前缀也可以）
+![PageVisibility](./example/PageVisibility.png)
 
 
 
