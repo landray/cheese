@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>测试 HTML5 Page Visibility API</title>
+</head>
+<body>
+
+  <div id="showTip"></div>
+
+  <script>
+  // 以前需要增加私有前缀，增加私有前缀visibilitychange的v还要大写(webkitVisibilityState)，现在不用加了
+  function browerKernel(){
+    var result;
+    ['webkit', 'moz', 'o', 'ms'].forEach(function(prefix){
+      if( typeof document[ prefix + 'Hidden' ] != 'undefined' ){
+        result = prefix;
+      }
+    });
+    return result;
+  };
+
+  // 初始化
+  function init(){
+    //prefix = browerKernel();
+    var showTip = document.getElementById('showTip');
+
+    // 绑定监听事件
+    document.addEventListener('visibilitychange', function onVisibilityChange(e){
+      var tip = null;    
+      if( document['visibilityState'] == 'hidden' ) {
+        tip = '<p>离开页面：  '+ new Date().toLocaleString() + '</p>';
+      } else if( document['visibilityState' ]  == 'visible' ){
+        tip = '<p>进入页面：  '+ new Date().toLocaleString() + '</p>' ;
+      } 
+
+      showTip.innerHTML += tip;
+      
+      //VisibilityState的值
+      console.log(document['visibilityState']);
+    });
+  }
+
+  window.onload = init;
+
+  </script>
+</body>
+</html>
