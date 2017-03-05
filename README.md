@@ -48,5 +48,5 @@
 * [image-set方法和img标签属性srcset,sizes](./notes/linl/image-set方法和img标签属性srcset,sizes)
 * [深拷贝-深度优先循环](./notes/zhangmz/深拷贝-深度优先循环)
 * [HTML5-Page-Visibility](./notes/wyg/HTML5-Page-Visibility)
-
+* [文字竖直排列](./notes/huangzifeng/文字竖直排列)
 
