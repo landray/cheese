@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>气泡框</title>
+  <style type="text/css">
+    .dialogue {
+      background-color: #ffffff;
+      border: 10px solid green;
+      border-radius: 160px / 110px;
+      width: 300px;
+      height: 200px;
+      position: relative;
+    }
+
+    .text {
+      padding: 50px 85px;
+      color: #FF5722;
+      font-weight: bold;
+    }
+
+    .dialogue:before {
+      content: '';
+      width: 30px;
+      height: 30px;
+      background: #fff;
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      border: 10px solid green;
+      border-radius: 30px;
+      z-index: 10;
+    }
+    
+    .dialogue:after {
+      content: '';
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      position: absolute;
+      bottom: -26px;
+      right: -13px;
+      border: 7px solid green;
+      border-radius: 16px;
+      z-index: 10;
+    }
+
+    .dialog {
+      margin-top: 100px;
+      width: 300px;
+      
+      border-radius: 8px;
+      text-align: center;
+      padding: 5px;
+      position: relative; 
+    }
+
+    .dialog1 {
+      background-color: #8a8ad0;
+    }
+
+    .dialog1:before{
+      content: '';
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      background: #8a8ad0;
+      top: 7px;
+      right: -11px;
+      border-bottom-right-radius: 15px 15px;
+    }
+
+    .dialog1:after{
+      content: '';
+      position: absolute;
+      height: 6px;
+      width: 15px;
+      background-color: #fff;
+      border-bottom-right-radius: 15px 6px;
+      top: 6px;
+      right: -15px;
+      z-index: 1;
+    }
+    
+    .dialog2 {
+      border: solid 1px #8a8ad0;
+    }
+
+    .dialog2:before{
+      content: '';
+      height: 9px;
+      width: 9px;
+      position: absolute;
+      background: #fff;
+      top: 7px;
+      right: -10px;
+      border: 1px solid #8a8ad0;
+      border-left: 0px;
+      border-bottom-right-radius: 15px 15px;
+      z-index: 1;
+    }
+
+    .dialog2:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 8px;
+    background-color: #fff;
+    border: solid 1px #8a8ad0;
+    border-bottom-right-radius: 12px 6px;
+    border-top: 0;
+    top: 6px;
+    right: -10px;
+    z-index: 2;
+    }
+
+    .dialog3 {
+      background-color: #fcc;
+    }
+
+    .dialog3:after{
+      content: '';
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+      border: solid;
+      border-width: 6px;
+      border-color: #fcc transparent transparent #fcc;
+      right: -12px;
+      top: 7px;
+    }
+
+    .dialog4 {
+      border: solid 1px #efd94e;
+    }
+
+    .dialog4:before {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      border: 7px solid #000;
+      border-color: #efd94e transparent transparent #efd94e;
+      right: -14px;
+      top: 7px;
+    }
+
+    .dialog4:after{
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      border: 6px solid;
+      border-color: #fff transparent transparent #fff;
+      right: -12px;
+      top: 8px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="dialogue">
+    <p class="text">这是圆圈气泡框</p>
+  </div>
+
+  <div class="dialog dialog1">
+    <span class="text1">这是尖角气泡框</span>
+  </div>
+
+  <div class="dialog dialog2">
+    <span class="text1">这是空心尖角气泡框</span>
+  </div>
+
+  <div class="dialog dialog3">
+    <span class="text1">这是尖角气泡框</span>
+  </div>
+
+  <div class="dialog dialog4">
+    <span class="text1">这是空心尖角气泡框</span>
+  </div>
+</body>
+</html>
