@@ -50,4 +50,5 @@
 * [HTML5-Page-Visibility](./notes/wyg/HTML5-Page-Visibility)
 * [文字竖直排列](./notes/huangzifeng/文字竖直排列)
 * [几种css实现的气泡框](./notes/linl/几种css实现的气泡框)
+* [左右固定 中间自适应布局](./notes/leezng/左右固定中间自适应布局)
 
