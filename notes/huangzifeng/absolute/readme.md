@@ -1,10 +1,10 @@
 
 
-#css绝对定位absoulte
+# css绝对定位absoulte
 
 注：参考文章地址http://www.jianshu.com/p/a3da5e27d22b ，如有版权问题，请联系本人邮箱：673944632@qq.com
 
-###包裹性
+### 包裹性
 
 一旦给元素加上absolute或float就相当于给元素加上了display:block;比如内联元素的默认宽度是自适应的，如果想给内联元素设定宽度，需要给内联元素设置display:block;但是如果给内联元素加上absolute或者float，内联元素的display属性就自动变成block，就可以设定宽度了。所有，当absolute或者float与display:block同时出现时，display:block是多余的代码。
 
@@ -16,7 +16,7 @@
     <span style="border: 1px solid red;width: 200px;height: 200px;text-align:center">test3</span>
 ```
 
-###高度欺骗性
+### 高度欺骗性
 
 absolute和float都具有高度欺骗性，不同的是添加了absolute属性后，元素会脱离正常的文档流，而添加了float是欺骗父元素，让父元素以外高度塌陷了，元素依然处于正常文档流中，文字会环绕添加了float的元素。
 
@@ -36,7 +36,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
     </div>
 ```
 
-###如何确定定位点
+### 如何确定定位点
 
 如果只指定了absolute，未指定left/right/top/bottom，其在所处层级中的定位点就是正常文档流中该元素的定位点。如果指定了left/right/top/bottom并且没有position:static以外的父元素。此时absolute所处的层是铺满全屏的，即铺满body。会根据用户指定位置的在body上进行定位。
 
@@ -53,7 +53,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
     </div>
 ```
 
-###父relative + 子absolute来实现定位
+### 父relative + 子absolute来实现定位
 
 如果absolute元素没有position:static以外的父元素，那将相对body定位。如果父元素被设置未relative，那么absolute元素将相对于其父元素定位。
 
@@ -98,7 +98,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
     }
 ```
 
-###通过设置absolute实现全屏拉伸
+### 通过设置absolute实现全屏拉伸
 
 设置了absolute的元素如果同时设置left和right会水平拉伸，如果同时设置top和bottom会实现垂直拉伸。所以如果想实现全屏拉伸，可以设置left: 0;right: 0;top: 0;bottom: 0;
 
@@ -108,7 +108,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
     <span style="position: absolute; left: 0;right: 0; top: 0;bottom: 0;background-color: #665b5b;opacity: .5;filter: alpha(opacity=50);">全屏滤镜</span>
 ```
 
-###配合z-index使用
+### 配合z-index使用
 
 如果有多个元素都设置了absolute属性，当absolute元素覆盖另一个absolute元素，且HTML端不方便调整DOM的先后顺序时，可以使用z-index: >1。
 
