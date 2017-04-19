@@ -1,6 +1,6 @@
-##bind、call、apply
+## bind、call、apply
 
-###apply、call用法与区别
+### apply、call用法与区别
 
 在 javascript 中，call() 和 apply() 都是为了改变某个函数运行时函数体内部 this 的指向。
 
@@ -47,7 +47,7 @@ call()接收两个参数，第一个参数与apply()一样都是运行函数的�
     max(1,2,3)	//3
 ```
 
-###bind
+### bind
 
 bind()与call()、apply()用法相似，也可以改变函数体内的this指向，但bind()会创建一个新的函数。当调用bind()时会以传入bind()的第一个参数作为this,如：
 
