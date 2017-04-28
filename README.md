@@ -51,4 +51,5 @@
 * [文字竖直排列](./notes/huangzifeng/文字竖直排列)
 * [几种css实现的气泡框](./notes/linl/几种css实现的气泡框)
 * [左右固定 中间自适应布局](./notes/leezng/左右固定中间自适应布局)
+* [vue-loader的一些设置和技巧](./notes/zhangmz/vue-loader的一些设置和技巧)
 
