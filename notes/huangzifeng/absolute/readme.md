@@ -55,7 +55,7 @@ absolute和float都具有高度欺骗性，不同的是添加了absolute属性�
 
 ### 父relative + 子absolute来实现定位
 
-如果absolute元素没有position:static以外的父元素，那将相对body定位。如果父元素被设置未relative，那么absolute元素将相对于其父元素定位。
+如果absolute元素没有position:static以外的父元素，那将相对body定位。如果父元素被设置为relative，那么absolute元素将相对于其父元素定位。
 
 实例代码：
 
