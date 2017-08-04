@@ -18,6 +18,7 @@
 
 
 ## 知识库列表
+* [Nodejs后台开发工具分享](./notes/yangjiapei/后台开发常用工具)
 * [垂直居中实现方式总结和css3单位vw-vh的简单应用](./notes/wyg/垂直居中实现方式总结和css3单位vw-vh的简单应用/)
 * [hashchange事件以及它的事件对象](./notes/wyg/hashchange事件以及它的事件对象/)
 * [apply()、call()、bind()用法及区别](https://github.com/landray/frontend-kb/tree/master/notes/huangzifeng/apply-call-bind)
@@ -52,4 +53,5 @@
 * [几种css实现的气泡框](./notes/linl/几种css实现的气泡框)
 * [左右固定 中间自适应布局](./notes/leezng/左右固定中间自适应布局)
 * [vue-loader的一些设置和技巧](./notes/zhangmz/vue-loader的一些设置和技巧)
+
 
