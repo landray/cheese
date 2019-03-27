@@ -11,6 +11,8 @@ deploy:
   skip_cleanup: true
   keep_history: true
   github_token: '$GITHUB_TOKEN'
-  branches:
-    only:
-      - master
+  on:
+    repo: landray/cheese
+    branches:
+      only:
+        - master
