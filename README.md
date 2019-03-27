@@ -1,57 +1,89 @@
-# 前端知识库
+# 前端知识分享库
 
-**请使用 markdown 编写笔记，一次分享即编写一个markdown文件。** 提交笔记前，先在 `notes` 目录下创建自己专有的文件夹（可以用你的昵称，英文名之类）。每次添加分享内容时，现在自己的文件夹下添加一个以分享内容主题命名的文件夹，再将要分享的markdown文件命名为`readme.md` 放置于该文件夹下，该文件夹还可用于放置当前笔记相关的其他资源，比如图片，文档等。添加完笔记的同时需在 **知识库列表** 中添加相关链接。笔记的格式请参考[INSTRUCTION](./notes/INSTRUCTION.md)
+这是前端的只是分享库，你可以点击左侧菜单查看往期分享， 如果你是前端新人， 可以先查阅 [前端新人教程](http://frontend-toolkit.kk.cafe/frontend-starter/)(仅蓝凌公司内网可访问)
 
-目录结构如下
+## 如何提交你的分享
 
-```sh
-└── notes
-    └── Joestan // 自己专有的文件夹
-        └── 如何获取浏览器及设备信息(设备嗅探) // 笔记主题
-            ├── readme.md // 笔记的文字内容, 文件名必须是 readme.md
-            └── chrome-console.png // 笔记用到的图片
+操作相当简单， 克隆分享仓库 <https://github.com/landray/cheese.git> 到本地， _增加你要分享的内容_， 提交代码即可，提交完稍后片刻你即可通过 <https://landray.github.io/cheese/> 访问你刚发布的内容。
 
-// 链接写法, 链接路径写至文件夹即可，无须到 readme.md 文件
-[如何获取浏览器及设备信息(设备嗅探)](./notes/Joestan/如何获取浏览器及设备信息(设备嗅探)/)
+### 内容书写格式
+
+分享内容采用 markdown 编写. markdown 是一种纯文本的书写格式，可以方便的书写各种技术文档，对于开发人员来说， 完全可以用其替代 word. 若你还不了解 markdown 语法， 可上 <https://www.zybuluo.com/mdeditor> 熟悉，该网页左侧是书写的内容， 右侧是呈现的效果。
+
+为保证大家能够正常阅读查看你分享的内容，请按以下步骤来创建你的分享:
+
+### 1. 创建目录结构和必要文件
+
+参考以下示例建目录结构
+
+```
+/  # 项目根路径
+├── 20181206 # 每期分享的内容按分享日期建立文件夹(存在则跳过)
+│   └── opener-referer # 各自分享的内容建立单独的文件夹，请用`英文字母/连字符/数字` 命令， 存放分享所有相关的的内容(如图片/pdf资源等)
+│       ├── assets # 存放各种附件资源
+│       │     └── img.png # 例如图片资源 （可在readme.md 中直接引用）
+│       └── README.md # 分享内容的首页, 你所分享的内容应当全部在此处, 注意文件名必须大写
 ```
 
+注意在你单独的文件夹中：
 
+- 可以存放各种其他文件，这些文件应该在 README.md 中引用， 否则其他人将无入口访问相关资源
+- 同时，为避免项目库过大， _请勿提交上传超过 1M_ 的文件， 大的文件资源请上传至第三方网盘，并在你的 README.md 中引用
 
-## 知识库列表
-* [Nodejs后台开发工具分享](./notes/yangjiapei/后台开发常用工具)
-* [垂直居中实现方式总结和css3单位vw-vh的简单应用](./notes/wyg/垂直居中实现方式总结和css3单位vw-vh的简单应用/)
-* [hashchange事件以及它的事件对象](./notes/wyg/hashchange事件以及它的事件对象/)
-* [apply()、call()、bind()用法及区别](https://github.com/landray/frontend-kb/tree/master/notes/huangzifeng/apply-call-bind)
-* [使用grunt-prompt添加交互式命令行](https://github.com/landray/frontend-kb/tree/master/notes/zengxc/使用grunt-prompt添加交互式命令行)
-* [浏览器渲染模式之一BFC](./notes/linl/BFC)
-* [原生JS获取元素样式](./notes/leezng/原生JS获取元素样式)
-* [jQuery-queue队列](./notes/zhangmz/jQuery-queue队列)
-* [浮点数运算精度](./notes/zhangmz/浮点数运算精度)
-* [Javascript数组去重](./notes/yangjiapei/Javascript数组去重)
-* [伪元素的妙用](./notes/yangjiapei/伪元素的妙用)
-* [去除inline-block元素出现空白间隙](./notes/yangjiapei/去除inline-block元素出现空白间隙)
-* [在限宽的容器中实现全屏效果](./notes/yangjiapei/在限宽的容器中实现全屏效果)
-* [css选择器的部分区别以及bind(this)的简单应用](./notes/wyg/css选择器的部分区别以及bind(this)的简单应用/)
-* [JavaScript中constructor属性详解](./notes/wyg/JavaScript中constructor属性详解/)
-* [ES6特性  class、static、super、extends](https://github.com/landray/frontend-kb/blob/master/notes/huangzifeng/ES6-class-static-super-extends/readme.md)
-* [jQuery事件的命名空间](./notes/cails/jQuery事件的命名空间/)
-* [text-overflow与contenteditable的冲突](./notes/cails/text-overflow与contenteditable的冲突/)
-* [使用正则解析url查询串](./notes/cails/使用正则解析url查询串/)
-* [数组的原型方法(ES5)](./notes/cails/数组的原型方法(ES5)/)
-* [Promise对象(ES6)](./notes/cails/Promise对象(ES6)/)
-* [CSS变量(CSS4)](./notes/leezng/CSS变量/)
-* [坐标系计算](./notes/leezng/坐标系/)
-* [absolute详解](./notes/huangzifeng/absolute/)
-* [图片懒加载](./notes/linl/图片懒加载)
-* [css正方形和多列等高](./notes/zhangmz/css正方形和多列等高)
-* [浅谈onerror事件](./notes/wyg/浅谈onerror事件)
-* [CSS3之pointer-events属性](./notes/wyg/CSS3之pointer-events属性)
-* [image-set方法和img标签属性srcset,sizes](./notes/linl/image-set方法和img标签属性srcset,sizes)
-* [深拷贝-深度优先循环](./notes/zhangmz/深拷贝-深度优先循环)
-* [HTML5-Page-Visibility](./notes/wyg/HTML5-Page-Visibility)
-* [文字竖直排列](./notes/huangzifeng/文字竖直排列)
-* [几种css实现的气泡框](./notes/linl/几种css实现的气泡框)
-* [左右固定 中间自适应布局](./notes/leezng/左右固定中间自适应布局)
-* [vue-loader的一些设置和技巧](./notes/zhangmz/vue-loader的一些设置和技巧)
+### 2. 在 README.md 的书写你的内容
 
+请参考下属格式来书写你的分享内容
 
+````
+  # 分享的标题
+  分享简要介绍
+
+  ## 详细介绍
+  该主题的相关背景(例如在出现你要分享的主题前的状况)，你分享的主题能解决什么问题，如何解决的等。
+
+  ```js
+  // 示例代码
+  ```
+
+  或者 演示链接
+
+  **需要注意以下几点，注意点需要写明出**
+
+  1. 该方法的解决问题的原理是什么?
+  2. 该解决方法有没有局限？兼容性怎样？
+  3. 有没有其他解决方案？
+  4. 有没有要特别注意的地方？（比如容易用错的地方）
+  5. 有没有其他类似的但是行为不太一致的方法? (比如 Array.prototype.forEach 和\$.each)
+  6. 有没有其他相关知识？（比如，讲如何获取元素伪元素的计算属性时，那如何设置伪元素的样式，可只给出链接）
+
+  ### 实际使用场景
+
+  #### 场景 1
+
+  说明...
+
+  ```js
+  // 示例代码
+  ```
+
+  或者 演示链接
+
+  ## 相关链接
+  列举出相关资源
+
+  - [链接一](http://xxx.com/xxxx)
+
+````
+
+注意：
+
+1. 文字内容可不必过于冗长，能让人快速了解即可，可摘取网上相关介绍
+2. DON'T TALK, SHOW ME THE CODE. 一定要有示例，应提前准备好：
+   1. 可以直接使用网上的链接
+   2. 也可以直接贴代码，若代码太多， 请使用下述的 playground 来创建你的代码片段演示:
+      1. 可注册 <http://jsfiddle.net/>(创建普通的网页项目) 或 <https://codesandbox.io/s/new>(可用于创建 Vue/React 等大型网页项目)，在上书写代码片段，并保存生成访问地址，在你的文档中贴入地址即可
+      2. 若需要分步骤或者有多个场景， 请使用多个链接来展示
+
+### 3. Git 提交代码
+
+All done! 访问 <https://landray.github.io/cheese/> 通过左侧导航找到你刚分享的内容即可查看。
