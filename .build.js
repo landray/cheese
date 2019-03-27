@@ -15,7 +15,6 @@ function readDates(dir) {
 }
 
 function readDateArticles(dir) {
-  console.log('dir', dir)
   return fs
     .readdirSync(dir)
     .filter(
@@ -44,7 +43,7 @@ function find2ndNormalizeReadme(dir) {
 function getReadMeContent(p) {
   const content = fs.readFileSync(p, 'utf8')
   const title = content.split('\n').find(line => /^#+/.test(line.trim()))
-  console.log('title', p, title)
+
   return {
     title: title.replace(/^\s*#+/, '').trim(),
     href: p.replace(__dirname, '.').replace(standardReadmeName, '')
